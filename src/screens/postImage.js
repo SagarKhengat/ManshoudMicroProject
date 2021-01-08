@@ -169,6 +169,7 @@ export default class PostImage extends Component {
                                 <Image
                                     source={{ uri: this.state.image }}
                                     style={styles.postImageImage}
+                                    resizeMode={'stretch'}
                                 />
                             ) : null}
                         </View>

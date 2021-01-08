@@ -63,7 +63,7 @@ export default class EditImage extends Component {
                             //save edited image to user's phone storage to access it for upload
                             return {
                                 folder: configs.SAVEIMAGEFOLDER,
-                                filename: configs.SAVEIMAGEFILENAME,
+                                filename: String(Math.ceil(Math.random() * 100000000)),
                                 transparent: true,
                                 imageType: configs.SAVEIMAGETYPE
                             }
