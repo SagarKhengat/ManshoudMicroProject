@@ -41,9 +41,9 @@ class ListItem extends Component {
                             <View style={styles.cardImage}>
 
                                 <Image
-                                    style={styles.image150}
+                                    style={styles.image100}
                                     source={{ uri: item.imagePath }}
-                                    resizeMode={"contain"}
+                                    resizeMode={'stretch'}
                                 />
 
                             </View>

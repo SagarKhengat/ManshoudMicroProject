@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     // Dashboard Screen Styles
     cardContainer: {
         backgroundColor: '#FFFFFF',
-        padding: 15,
+        padding: 7,
         elevation: 2,
         borderRadius: 2
     },
@@ -25,25 +25,26 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between'
     },
     cardImage: {
-        flex: 0.55,
         flexDirection: 'column',
         justifyContent: 'space-between',
-        alignItems: "center",
-        margin: '1%'
+        alignItems: "flex-start",
+        margin: '1%',
+        borderRadius: 10
     },
-    image150: {
-        width: 150,
-        height: 150,
-        borderRadius: 1
+    image100: {
+        width: 100,
+        height: 100,
+        borderRadius: 10
     },
     cardText: {
-        flex: 0.40,
+        flex: 1,
         flexDirection: 'column',
-        alignSelf: 'center',
+        alignSelf: 'flex-start',
+        paddingLeft: 15,
         margin: '1%'
     },
     cardTitleText: {
-        fontSize: 16,
+        fontSize: 18,
         fontWeight: 'bold',
         color: Colors.darkTextColor
     },
@@ -122,6 +123,7 @@ const styles = StyleSheet.create({
         height: 40,
         borderColor: Colors.lightGreen,
         borderWidth: 1,
+        paddingHorizontal: 6,
         color: Colors.darkTextColor,
     },
     postImageButton: {
