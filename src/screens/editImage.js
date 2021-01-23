@@ -39,6 +39,7 @@ export default class EditImage extends Component {
                         onClearPressed={() => {
                         }}
                         eraseComponent={<View style={[styles.functionButton, { marginLeft: 25 }]}><Text style={styles.editImageTextColor}>Eraser</Text></View>}
+                        //Change width of brush using this 
                         strokeComponent={color => (
                             <View style={[{ backgroundColor: color }, styles.strokeColorButton]} />
                         )}

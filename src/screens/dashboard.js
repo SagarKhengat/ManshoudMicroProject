@@ -217,7 +217,7 @@ export default class Dashboard extends Component<{}> {
                                 <Image
                                     style={styles.dashboardModalMainImage}
                                     source={{ uri: this.state.selectedImage.imagePath }}
-                                    resizeMode={'stretch'}
+                                    resizeMode={'contain'}
                                 />
                                 <View style={styles.dashboardModalTextContainer}>
                                     <Text style={styles.cardTitleText}>{this.state.selectedImage.title}</Text>
